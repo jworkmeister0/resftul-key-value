@@ -32,11 +32,13 @@ I designed the code to require minimal explaination. Native JavaScript objects a
 well-suited for holding key-value pairs, so we take advantage of this. All of
 the pairs are stored in one JS object. Assuming it was populated (predictable) with data, it would
 look something like this when stringified:
-```json{
+```json
+{
   "key_1": "value_1",
   "key_2": "value_2",
   ...
-}```
+}
+```
 
 I was also able to leverage some fancy ES6 features for more readable code. You'll
 find [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
