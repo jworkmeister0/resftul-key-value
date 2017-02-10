@@ -29,7 +29,7 @@ function defineAPI(){
   });
 
   /**
-   * GETs a key/value pair given a particular value.
+   * GETs a value given a particular key.
    * Sends the pair, or an empty object if no value exists under the key.
    */
   app.get("/api/value", (req, res) => {

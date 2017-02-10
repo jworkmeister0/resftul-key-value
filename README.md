@@ -23,7 +23,7 @@ This is a basic implementation of a RESTful web service for manipulating key/val
 # API Reference
 
 * `GET /api/pairs` returns all key/value pairs
-*  `GET /api/value` to return
+*  `GET /api/value?key=KEY` to return a key, given a value
 *  `PUT /api/pair?key=KEY&value=VALUE` to insert or update a key / value pair.
 
 
